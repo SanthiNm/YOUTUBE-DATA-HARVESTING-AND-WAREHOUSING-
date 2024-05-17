@@ -470,15 +470,16 @@ def show_comments_table():
 # streamlit code
 
 with st.sidebar:
-     st.title(":orange[YOUTUBE DATA HARVESTING AND WAREHOUSING]")
-     st.header("Skills Take Away")
-     st.caption("Python Scripting")
-     st.caption("Data Collection")
-     st.caption("API Integration")
-     st.caption("MongoDB")
-     st.caption("Data Management using SQL")
+     st.title(":orange[Streamlit Application]")
+     st.header("How to operate this?")
+     st.caption("Select the channel id from youtube and paste it on particular tab")
+     st.caption("insert the data into MongoDB")
+     st.caption("Migrate the data to SQL")
+     st.caption("Select the question from the tab")
+     st.caption("Answer will be display")
 
 st.header(":orange[Welcome to Streamlit]")
+st.title(":orange[YOUTUBE DATA HARVESTING AND WAREHOUSING]")
 Channel_ID = st.text_input("Enter the Channel ID")
 
 if st.button("Collect and store Data into MongoDB"):
